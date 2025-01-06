@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(32, 31, 49);
+    color: white;
+    font-family: sans-serif;
+}
+:root{
+    --universal-padding: 20px;
+}
+.container{
+    margin: 0 300px;
+    border: 2px solid white;
+    padding: var(--universal-padding);
+}
+.flex{
+    display: flex;
+}
+/* -----header-list---- */
+.header-top-section>ul{
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    margin-block: 40px 10px;
+}
+.header-top-section>ul li{
+    font-weight: 600;
+    font-size: 15px;
+}
+/* -----header-image section */
+.main-logo{
+    height: 60px;
+}
+.search input[type="text"]{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background: white;
+}
+.header-main-section{
+    background-image: url(hianime/asset\ 0.webp);
+}
+.header-main-desc{
+    width: 450px;
+    height: 200px;
+    border: 2px solid white;
+    padding-top: 30px;
+    font-size: 600;
+}
+.search{
+    display: inline-block;
+    position: relative;
+    margin-block: 0 50px;
+    right: 260px;
+    top: 40px;
+}
+.search input[type="submit"]{
+    background-color: pink;
+    color: rgb(32, 31, 49);
+    padding: 10px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.top-search{
+font-size: 17px;    
+margin: 0;
+padding: 0;
+float: left;
+}
+.search-items{
+    padding: 40px 0 80px 0;
+    justify-content: flex-start;
+    font-size: 16px;
+    width: 500px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.search-items a{
+    text-decoration: none;
+}
+.watch-anime{
+    padding: 10px 30px ;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(32, 31, 49);
+    background-color: pink;
+    border-radius: 5px;
+}
+/* ------main-section */
+.main-section{
+
+}
+.social-media-icons{
+    padding: 5px;
+    margin-left: 50px;
+}
+.social-media-icons-text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.social-media-icons-text p{
+    margin: 8px 0;
+    padding: 0;
+}
+.social-media-icon{
+    margin: 14px 0;
+    padding: 0 20px;
+    flex-direction: row;
+}
+/* main-section-desc */
+.main-container{
+   
+    gap: 65px;
+}
+.main-desc-header{
+    width: 62%;
+}
+.main-desc-header h1{
+    font-size: 1.8rem;
+}
+.main-desc-header p{
+    color: #ccc;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-desc-header li{
+    color: #ccc;
+}
+.main-desc-header li>strong{
+    color: #ccc;
+}
+/* side-main-desc */
+.side-main-desc{
+    width: 36%;
+}
+.item{
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 20px;
+    margin-bottom: 5px;
+    line-height: 1.4;
+    gap: 3px;
+    background: rgb(255, 255, 255, .05);
+}
