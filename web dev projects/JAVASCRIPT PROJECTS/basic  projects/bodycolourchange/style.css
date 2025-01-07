@@ -1,0 +1,30 @@
+.container{
+    border: 2px solid white;
+    margin-block: 100px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    background-color: palevioletred;
+}
+.buttons{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+#grey{
+    background-color: gray;
+}
+#green{
+    background-color: greenyellow;
+}
+#white{
+    background-color: white;
+}
+#yellow{
+    background-color: yellow;
+}
